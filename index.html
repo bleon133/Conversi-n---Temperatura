@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperatura</title>
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./main.js"></script>
+</head>
+<body>
+    <div class="contenedor">
+        <h1 class="contenedor__titulo">Convertidor de Temperatura</h1>
+        <div class="contenedor__general">
+            <div class="contenedor__izquierda">
+                <div class="contenedor__izquierda__caja">   
+                    <input type="text" class="contenedor__izquierda__numero" id="tempUser">
+                </div>
+                <div class="contenedor__izquierda__conversiones">
+                    <div class="contenedor__izquierda__conversiones__1">
+                        <input type="radio" name="conversion" id="fc">
+                        <span>F-C</span>
+                    </div>
+                    <div class="contenedor__izquierda__conversiones__2">
+                        <input type="radio" name="conversion" id="cf">
+                        <span>C-F</span>
+                    </div>
+                </div>
+                <div class="contenedor__izquierda__resultados">
+                    <div class="contenedor__izquierda__resultados__caja">
+                        <p class="contenedor__izquierda__resultados__caja__numero" id="tempResult"></p>
+                    </div>
+                    <div class="contenedor__izquierda__resultados__caja__btn">
+                        <button class="contenedor__izquierda__resultados__boton" onclick="convertir()">
+                            CONVERTIR
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="contenedor__derecha">
+                <p class="info"></p>
+                <div class="contenedor__derecha__temperatura">
+                    <div class="contenedor__derecha__mercurio" id="nivelTemp">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

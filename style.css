@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    font-size: 18px;
+    padding: 5%;
+}
+
+.contenedor{
+    width: 100%;
+    height: 100%;
+}
+
+h1{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}   
+
+.contenedor__general{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    border: 1px solid black;
+}
+
+.contenedor__izquierda{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5%;
+    border: 1px solid black;
+}
+
+.contenedor__izquierda__caja{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor__izquierda__numero{
+    font-size: 2rem;
+    height: 60%;
+    width: 40%;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.contenedor__izquierda__conversiones{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contenedor__izquierda__conversiones__1{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor__izquierda__conversiones__2{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor__izquierda__resultados{
+    height: 50%;
+    width: 100%;
+}
+
+.contenedor__izquierda__resultados__caja{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor__izquierda__resultados__caja__numero{
+    height: 50%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+}
+
+.contenedor__izquierda__resultados__caja__btn{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor__izquierda__resultados__boton{
+    height: 50%;
+    width: 40%;
+    color: #fff;
+    background-color: blue;
+    border-radius: 20px;
+    border: none;
+}
+
+.contenedor__derecha{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.contenedor__derecha__temperatura{
+    height: 70%;
+    width: 30%;
+    border: 1px solid black;
+    transform: rotate(180deg);
+}
+
+.contenedor__derecha__mercurio{
+    height: 50%;
+    width: 100%;
+    background-color: red;
+    transition: all 0.5s;
+}
